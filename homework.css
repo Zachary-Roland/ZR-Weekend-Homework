@@ -33,7 +33,9 @@
      border: 2px solid #ffd116;
     background-color: #ffd116;
  }
-
+ footer {
+     line-height: 100px;
+ }
 /* TYPOGRAPHY */
 
 /* COLORS */
