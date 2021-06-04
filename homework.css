@@ -1,14 +1,59 @@
-/* LAYOUT */
-body {
-    background-color: blue;
-}
+/*********************
+ LAYOUT (TODO)
+    *Body*
+        -Add background image
+            -low opacity
+            -flexes to fill screen
+    *Header*
+        -Add header w/ text and small hero image
+            -image stays on left side of screen
+            -text stays centered
+    *Navigation*
+        -Add links to Home, About, Contact, and Shop
+            -Links are in boxes w/ color and border
+            -Active link box has different color and does not link anywhere.
+            -Links change color and become underlined when hovered over
+ *********************/
 
 /* TYPOGRAPHY */
 
 /* COLORS */
 
-/* CONTACT */
+/*********************
+ ABOUT  (TODO) - Specific CSS for About Page 
+    *Bio*
+        -Title
+        -Paragraph w/ bio
+ *********************/
 
-/* HOME */
 
-/* SHOP */
+/*********************
+ CONTACT (TODO) - Specific CSS for Contact Page
+    *Contact Us Form*
+        -Name form
+        -Email form
+        -Subject form.
+        -Message form that is a larger text field.
+        -Three Radios (reason for submission)
+            -Booking Request
+            -?
+            -? 
+        -Submit button
+ *********************/
+
+
+/*********************
+ HOME (TODO) - Specific CSS for Home Page
+ *********************/
+
+
+/*********************
+ SHOP (TODO) - Specific CSS for Shop Page
+    *Side Menu*
+        -contain in-page links to different merch items.
+        -should take full width on smaller screens
+    *Merch section*
+        -Show merch options with image, description, price, and buy button.
+        -each merch item is an anchor that can be linked to in the side menu.
+
+ *********************/
