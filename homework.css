@@ -14,6 +14,25 @@
             -Active link box has different color and does not link anywhere.
             -Links change color and become underlined when hovered over
  *********************/
+ .navbar {
+     background-color: #FFEA49;
+ }
+ .nav-link {
+     border: 2px solid #fff396;
+     border-radius: 10px;
+     background-color: #fff396;
+     
+ }
+ .nav-link:not(.active):hover {
+    border: 2px solid #fff8ca;
+    background-color: #fff8ca;
+    /* Not sure if I like the look of the underline.
+    text-decoration: underline; */
+ }
+ .active {
+     border: 2px solid #ffd116;
+    background-color: #ffd116;
+ }
 
 /* TYPOGRAPHY */
 
