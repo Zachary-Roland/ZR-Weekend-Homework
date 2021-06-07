@@ -21,8 +21,6 @@
     border: 2px solid #fff8ca;
     background-color: #fff8ca;
     font-weight: 600;
-    /* Not sure if I like the look of the underline.
-    text-decoration: underline; */
  }
  .active {
     border: 2px solid #ffd116;
@@ -45,7 +43,7 @@
 /* COLORS */
 
 /*********************
- ABOUT  (TODO) - Specific CSS for About Page 
+ ABOUT - Specific CSS for About Page 
     *Bio*
         -Title
         -Paragraph w/ bio
@@ -53,7 +51,7 @@
 
 
 /*********************
- CONTACT (TODO) - Specific CSS for Contact Page
+ CONTACT - Specific CSS for Contact Page
     *Contact Us Form*
         -Name form
         -Email form
@@ -74,7 +72,7 @@ form {
 }
 
 /*********************
- HOME (TODO) - Specific CSS for Home Page
+ HOME - Specific CSS for Home Page
  *********************/
 
 .homePage {
@@ -97,15 +95,13 @@ form {
    border: 10px solid #ffd116;
    background-color: #fff396;
    border-radius: 25px;
-   /* max-width: 350px */
-   /* flex-basis: 25%; */
 }
 .smiley {
     width: 100px;
 }
 
 /*********************
- SHOP (TODO) - Specific CSS for Shop Page
+ SHOP - Specific CSS for Shop Page
     *Side Menu*
         -contain in-page links to different merch items.
         -should take full width on smaller screens
