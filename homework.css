@@ -14,28 +14,63 @@
             -Active link box has different color and does not link anywhere.
             -Links change color and become underlined when hovered over
  *********************/
+ * {
+    font-family: 'Montserrat', sans-serif;
+ }
  .navbar {
      background-color: #FFEA49;
  }
  .nav-link {
      border: 2px solid #fff396;
      border-radius: 10px;
-     background-color: #fff396;
-     
+     background-color: #fff396; 
  }
  .nav-link:not(.active):hover {
     border: 2px solid #fff8ca;
     background-color: #fff8ca;
+    font-weight: 600;
     /* Not sure if I like the look of the underline.
     text-decoration: underline; */
  }
  .active {
-     border: 2px solid #ffd116;
+    border: 2px solid #ffd116;
     background-color: #ffd116;
+    font-weight: 600;
+ }
+ .home {
+
+ }
+ .homePage {
+    background-color: #fff8ca;
+ }
+ .homeAside {
+    border: 5px solid #fff8ca;
+    background-color: #fff396;
+    border-radius: 25px;
+ }
+ .homeMain {
+    border: 5px solid #fff8ca;
+    background-color: #ffd116;
+    border-radius: 25px;
+ }
+ .home h1 {
+     flex-basis: 100%;
+ }
+ .homeSub {
+    border: 10px solid #ffd116;
+    background-color: #fff396;
+    border-radius: 25px;
+    /* max-width: 350px */
+    /* flex-basis: 25%; */
+ }
+ .smiley {
+     width: 100px;
  }
  footer {
      line-height: 100px;
+     background-color: #fff8ca;
  }
+
 /* TYPOGRAPHY */
 
 /* COLORS */
