@@ -37,6 +37,7 @@
  .smileyFooter {
      height: 50px
  }
+ 
 
 /* TYPOGRAPHY */
 
@@ -63,8 +64,12 @@
             -? 
         -Submit button
  *********************/
-.Contact {
-
+form {
+    background-color: #fff8ca;
+    border: 5px solid #fff8ca;
+}
+.btn:hover {
+    font-weight: 500;
 }
 
 /*********************
@@ -84,7 +89,7 @@
    background-color: #ffd116;
    border-radius: 25px;
 }
-.home h1 {
+.homeMain h1 {
     flex-basis: 100%;
 }
 .homeSub {
