@@ -36,7 +36,7 @@
      background-color: #fff8ca;
  }
  .smileyFooter {
-     height: 100px
+     width: 100px
  }
  
 
@@ -114,3 +114,9 @@ form {
         -each merch item is an anchor that can be linked to in the side menu.
 
  *********************/
+ .saleImages {
+     width: 100px;
+ }
+ .imageContainer:hover {
+     transform: scale(2, 2);
+ }
